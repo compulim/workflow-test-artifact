@@ -1,14 +1,14 @@
 {
-  "name": "@compulim/workflow-test-artifact",
+  "name": "$package-name",
   "version": "0.1.0-0",
   "description": "",
-  "homepage": "https://github.com/compulim/workflow-test-artifact#readme",
+  "homepage": "https://github.com/$package-name#readme",
   "bugs": {
-    "url": "https://github.com/compulim/workflow-test-artifact/issues"
+    "url": "https://github.com/$package-name/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/compulim/workflow-test-artifact.git"
+    "url": "git+https://github.com/$package-name.git"
   },
   "license": "MIT",
   "author": "",

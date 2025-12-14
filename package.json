@@ -1,5 +1,5 @@
 {
-  "name": "@compulim/workflow-test-artifact-root",
+  "name": "$package-name-root",
   "private": true,
   "scripts": {
     "build": "npm run build --if-present --workspaces",
@@ -18,8 +18,8 @@
     "test": "npm run test --if-present --workspaces"
   },
   "workspaces": [
-    "packages/integration-test",
+    "packages/workflow-test-artifact",
     "packages/pages",
-    "packages/workflow-test-artifact"
+    "packages/integration-test"
   ]
 }
