@@ -21,6 +21,16 @@
     "switch": "cat package.json | jq --arg SWITCH_NAME $SWITCH_NAME -r '(.[\"switch:\" + $SWITCH_NAME] // {}) as $TEMPLATE | .devDependencies += ($TEMPLATE.devDependencies // {}) | .dependencies += ($TEMPLATE.dependencies // {})' | tee ./package.json.tmp && mv ./package.json.tmp ./package.json"
   },
   "devDependencies": {
-    "@compulim/workflow-test-artifact": "^0.0.0-0"
+    "@compulim/workflow-test-artifact": "^0.0.0-0",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.27.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "handler-chain": "^0.1.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   }
 }

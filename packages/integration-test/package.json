@@ -19,6 +19,12 @@
     "test": "node --import ./happy-dom-env.ts --test ${CI:---watch} **/*.{spec,test}.{[jt]s,[jt]sx,c[jt]s,m[jt]s}"
   },
   "devDependencies": {
-    "@compulim/workflow-test-artifact": "^0.0.0-0"
+    "@compulim/workflow-test-artifact": "^0.0.0-0",
+    "@testduet/given-when-then": "^0.1.0",
+    "@testduet/wait-for": "^0.1.0",
+    "@tsconfig/strictest": "^2.0.8",
+    "expect": "^30.2.0",
+    "resolve-cwd": "^3.0.0",
+    "typescript": "^5.9.3"
   }
 }
