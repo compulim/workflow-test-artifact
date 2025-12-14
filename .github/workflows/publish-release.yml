@@ -12,7 +12,6 @@ jobs:
       id-token: write
     secrets:
       APP_ID: ${{ secrets.WORKFLOW_BOT_APP_ID }}
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       PRIVATE_KEY: ${{ secrets.WORKFLOW_BOT_PRIVATE_KEY }}
     uses: compulim/workflows/.github/workflows/publish-release-oidc.yml@main
     with:
