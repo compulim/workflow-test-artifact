@@ -21,4 +21,4 @@ jobs:
       PRIVATE_KEY: ${{ secrets.WORKFLOW_BOT_PRIVATE_KEY }}
     uses: compulim/workflows/.github/workflows/continuous-deployment.yml@main
     with:
-      package-name: @compulim/workflow-test-artifact
+      package-name: '@compulim/workflow-test-artifact'
