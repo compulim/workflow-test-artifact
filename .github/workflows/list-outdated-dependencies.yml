@@ -1,4 +1,4 @@
-name: List outdated dependencies
+name: 🚀 List outdated dependencies
 
 on:
   schedule:
