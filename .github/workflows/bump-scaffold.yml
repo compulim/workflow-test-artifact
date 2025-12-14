@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       package-name:
-        default: @compulim/workflow-test-artifact
+        default: '@compulim/workflow-test-artifact'
         description: Name of the package
         required: true
         type: string

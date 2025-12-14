@@ -16,5 +16,5 @@ jobs:
       PRIVATE_KEY: ${{ secrets.WORKFLOW_BOT_PRIVATE_KEY }}
     uses: compulim/workflows/.github/workflows/publish-release.yml@main
     with:
-      package-name: @compulim/workflow-test-artifact
+      package-name: '@compulim/workflow-test-artifact'
       tag: ${{ github.ref_name }}
