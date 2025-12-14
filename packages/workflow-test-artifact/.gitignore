@@ -1,4 +1,8 @@
-/.env*
+/.env
+/*.tgz
+/CHANGELOG.md
+/coverage/
 /dist/
-/static/
+/LICENSE
 /node_modules/
+/README.md
