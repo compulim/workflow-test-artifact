@@ -19,6 +19,6 @@ jobs:
       APP_ID: ${{ secrets.WORKFLOW_BOT_APP_ID }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       PRIVATE_KEY: ${{ secrets.WORKFLOW_BOT_PRIVATE_KEY }}
-    uses: compulim/workflows/.github/workflows/continuous-deployment.yml@main
+    uses: compulim/workflows/.github/workflows/continuous-deployment-oidc.yml@main
     with:
       package-name: '@compulim/workflow-test-artifact'
