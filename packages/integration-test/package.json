@@ -1,5 +1,5 @@
 {
-  "name": "$package-name-test",
+  "name": "@compulim/workflow-test-artifact-integration-test",
   "version": "0.0.0-0",
   "private": true,
   "description": "",
